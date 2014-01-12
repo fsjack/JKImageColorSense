@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C358377187FCB25001CD996 /* JKImageColorSenseCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C358376187FCB25001CD996 /* JKImageColorSenseCore.m */; };
+		8C3866F61882464C00588E33 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3866F51882464C00588E33 /* lookup.png */; };
+		8C48EBD2187BF2C100C73865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBD1187BF2C100C73865 /* Foundation.framework */; };
+		8C48EBD4187BF2C100C73865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBD3187BF2C100C73865 /* CoreGraphics.framework */; };
+		8C48EBD6187BF2C100C73865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBD5187BF2C100C73865 /* UIKit.framework */; };
+		8C48EBDC187BF2C100C73865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C48EBDA187BF2C100C73865 /* InfoPlist.strings */; };
+		8C48EBDE187BF2C100C73865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EBDD187BF2C100C73865 /* main.m */; };
+		8C48EBE2187BF2C100C73865 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EBE1187BF2C100C73865 /* JKAppDelegate.m */; };
+		8C48EBE5187BF2C100C73865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C48EBE3187BF2C100C73865 /* Main.storyboard */; };
+		8C48EBE8187BF2C100C73865 /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EBE7187BF2C100C73865 /* JKViewController.m */; };
+		8C48EBEA187BF2C100C73865 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C48EBE9187BF2C100C73865 /* Images.xcassets */; };
+		8C48EBF1187BF2C100C73865 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBF0187BF2C100C73865 /* XCTest.framework */; };
+		8C48EBF2187BF2C100C73865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBD1187BF2C100C73865 /* Foundation.framework */; };
+		8C48EBF3187BF2C100C73865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48EBD5187BF2C100C73865 /* UIKit.framework */; };
+		8C48EBFB187BF2C100C73865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C48EBF9187BF2C100C73865 /* InfoPlist.strings */; };
+		8C48EBFD187BF2C100C73865 /* JKImageColorArtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EBFC187BF2C100C73865 /* JKImageColorArtTests.m */; };
+		8C48EC09187BF35D00C73865 /* JKImageColorSense.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EC08187BF35D00C73865 /* JKImageColorSense.m */; };
+		8C48EC0C187BF36E00C73865 /* UIImage+JKImageColorSense.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C48EC0B187BF36E00C73865 /* UIImage+JKImageColorSense.m */; };
+		8CAA0278187DA072006C14A0 /* intheaeroplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CAA0277187DA072006C14A0 /* intheaeroplane.png */; };
+		8CAA027A187DB712006C14A0 /* thefame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAA0279187DB712006C14A0 /* thefame.jpg */; };
+		8CAA027E187E92B9006C14A0 /* fame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAA027D187E92B9006C14A0 /* fame.jpg */; };
+		8CAA0280187E9340006C14A0 /* silent roar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CAA027F187E9340006C14A0 /* silent roar.jpg */; };
+		8CFF72AA187F1137005E309A /* AdobeRGB1998.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A2187F1137005E309A /* AdobeRGB1998.icc */; };
+		8CFF72AB187F1137005E309A /* Generic CMYK Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A3187F1137005E309A /* Generic CMYK Profile.icc */; };
+		8CFF72AC187F1137005E309A /* Generic Gray Gamma 2.2 Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A4187F1137005E309A /* Generic Gray Gamma 2.2 Profile.icc */; };
+		8CFF72AD187F1137005E309A /* Generic Gray Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A5187F1137005E309A /* Generic Gray Profile.icc */; };
+		8CFF72AE187F1137005E309A /* Generic Lab Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A6187F1137005E309A /* Generic Lab Profile.icc */; };
+		8CFF72AF187F1137005E309A /* Generic RGB Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A7187F1137005E309A /* Generic RGB Profile.icc */; };
+		8CFF72B0187F1137005E309A /* Generic XYZ Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A8187F1137005E309A /* Generic XYZ Profile.icc */; };
+		8CFF72B1187F1137005E309A /* sRGB Profile.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72A9187F1137005E309A /* sRGB Profile.icc */; };
+		8CFF72B5187F1254005E309A /* Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72B2187F11F6005E309A /* Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc */; };
+		8CFF72B6187F1254005E309A /* DELL.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72B3187F11F6005E309A /* DELL.icc */; };
+		8CFF72B7187F1254005E309A /* LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72B4187F11F6005E309A /* LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc */; };
+		8CFF72B9187FA51D005E309A /* sixrules.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CFF72B8187FA51D005E309A /* sixrules.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C48EBF4187BF2C100C73865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C48EBC6187BF2C100C73865 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C48EBCD187BF2C100C73865;
+			remoteInfo = JKImageColorArt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C358375187FCB25001CD996 /* JKImageColorSenseCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKImageColorSenseCore.h; sourceTree = "<group>"; };
+		8C358376187FCB25001CD996 /* JKImageColorSenseCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKImageColorSenseCore.m; sourceTree = "<group>"; };
+		8C3866F51882464C00588E33 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
+		8C48EBCE187BF2C100C73865 /* JKImageColorSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKImageColorSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48EBD1187BF2C100C73865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C48EBD3187BF2C100C73865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C48EBD5187BF2C100C73865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C48EBD9187BF2C100C73865 /* JKImageColorSense-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKImageColorSense-Info.plist"; sourceTree = "<group>"; };
+		8C48EBDB187BF2C100C73865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C48EBDD187BF2C100C73865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C48EBDF187BF2C100C73865 /* JKImageColorSense-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKImageColorSense-Prefix.pch"; sourceTree = "<group>"; };
+		8C48EBE0187BF2C100C73865 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		8C48EBE1187BF2C100C73865 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		8C48EBE4187BF2C100C73865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C48EBE6187BF2C100C73865 /* JKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
+		8C48EBE7187BF2C100C73865 /* JKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
+		8C48EBE9187BF2C100C73865 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C48EBEF187BF2C100C73865 /* JKImageColorSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKImageColorSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48EBF0187BF2C100C73865 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8C48EBF8187BF2C100C73865 /* JKImageColorSenseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKImageColorSenseTests-Info.plist"; sourceTree = "<group>"; };
+		8C48EBFA187BF2C100C73865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C48EBFC187BF2C100C73865 /* JKImageColorArtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKImageColorArtTests.m; sourceTree = "<group>"; };
+		8C48EC07187BF35D00C73865 /* JKImageColorSense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKImageColorSense.h; sourceTree = "<group>"; };
+		8C48EC08187BF35D00C73865 /* JKImageColorSense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKImageColorSense.m; sourceTree = "<group>"; };
+		8C48EC0A187BF36E00C73865 /* UIImage+JKImageColorSense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKImageColorSense.h"; sourceTree = "<group>"; };
+		8C48EC0B187BF36E00C73865 /* UIImage+JKImageColorSense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKImageColorSense.m"; sourceTree = "<group>"; };
+		8CAA0277187DA072006C14A0 /* intheaeroplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intheaeroplane.png; sourceTree = "<group>"; };
+		8CAA0279187DB712006C14A0 /* thefame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thefame.jpg; sourceTree = "<group>"; };
+		8CAA027D187E92B9006C14A0 /* fame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fame.jpg; sourceTree = "<group>"; };
+		8CAA027F187E9340006C14A0 /* silent roar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "silent roar.jpg"; sourceTree = "<group>"; };
+		8CFF72A2187F1137005E309A /* AdobeRGB1998.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdobeRGB1998.icc; sourceTree = "<group>"; };
+		8CFF72A3187F1137005E309A /* Generic CMYK Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic CMYK Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A4187F1137005E309A /* Generic Gray Gamma 2.2 Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Gray Gamma 2.2 Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A5187F1137005E309A /* Generic Gray Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Gray Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A6187F1137005E309A /* Generic Lab Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic Lab Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A7187F1137005E309A /* Generic RGB Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic RGB Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A8187F1137005E309A /* Generic XYZ Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generic XYZ Profile.icc"; sourceTree = "<group>"; };
+		8CFF72A9187F1137005E309A /* sRGB Profile.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sRGB Profile.icc"; sourceTree = "<group>"; };
+		8CFF72B2187F11F6005E309A /* Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc"; sourceTree = "<group>"; };
+		8CFF72B3187F11F6005E309A /* DELL.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = DELL.icc; sourceTree = "<group>"; };
+		8CFF72B4187F11F6005E309A /* LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc"; sourceTree = "<group>"; };
+		8CFF72B8187FA51D005E309A /* sixrules.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sixrules.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C48EBCB187BF2C100C73865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48EBD4187BF2C100C73865 /* CoreGraphics.framework in Frameworks */,
+				8C48EBD6187BF2C100C73865 /* UIKit.framework in Frameworks */,
+				8C48EBD2187BF2C100C73865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48EBEC187BF2C100C73865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48EBF1187BF2C100C73865 /* XCTest.framework in Frameworks */,
+				8C48EBF3187BF2C100C73865 /* UIKit.framework in Frameworks */,
+				8C48EBF2187BF2C100C73865 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C48EBC5187BF2C100C73865 = {
+			isa = PBXGroup;
+			children = (
+				8C48EBD7187BF2C100C73865 /* JKImageColorSense */,
+				8C48EBF6187BF2C100C73865 /* JKImageColorArtTests */,
+				8C48EBD0187BF2C100C73865 /* Frameworks */,
+				8C48EBCF187BF2C100C73865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C48EBCF187BF2C100C73865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EBCE187BF2C100C73865 /* JKImageColorSense.app */,
+				8C48EBEF187BF2C100C73865 /* JKImageColorSenseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C48EBD0187BF2C100C73865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EBD1187BF2C100C73865 /* Foundation.framework */,
+				8C48EBD3187BF2C100C73865 /* CoreGraphics.framework */,
+				8C48EBD5187BF2C100C73865 /* UIKit.framework */,
+				8C48EBF0187BF2C100C73865 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C48EBD7187BF2C100C73865 /* JKImageColorSense */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EC06187BF30800C73865 /* JKImageColorSense */,
+				8C48EBE0187BF2C100C73865 /* JKAppDelegate.h */,
+				8C48EBE1187BF2C100C73865 /* JKAppDelegate.m */,
+				8C48EBE3187BF2C100C73865 /* Main.storyboard */,
+				8C48EBE6187BF2C100C73865 /* JKViewController.h */,
+				8C48EBE7187BF2C100C73865 /* JKViewController.m */,
+				8C48EBE9187BF2C100C73865 /* Images.xcassets */,
+				8C48EBD8187BF2C100C73865 /* Supporting Files */,
+			);
+			name = JKImageColorSense;
+			path = JKImageColorArt;
+			sourceTree = "<group>";
+		};
+		8C48EBD8187BF2C100C73865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CFF72A1187F1137005E309A /* Profiles */,
+				8CAA027F187E9340006C14A0 /* silent roar.jpg */,
+				8CFF72B8187FA51D005E309A /* sixrules.jpg */,
+				8CAA027D187E92B9006C14A0 /* fame.jpg */,
+				8C3866F51882464C00588E33 /* lookup.png */,
+				8CAA0277187DA072006C14A0 /* intheaeroplane.png */,
+				8CAA0279187DB712006C14A0 /* thefame.jpg */,
+				8C48EBD9187BF2C100C73865 /* JKImageColorSense-Info.plist */,
+				8C48EBDA187BF2C100C73865 /* InfoPlist.strings */,
+				8C48EBDD187BF2C100C73865 /* main.m */,
+				8C48EBDF187BF2C100C73865 /* JKImageColorSense-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C48EBF6187BF2C100C73865 /* JKImageColorArtTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EBFC187BF2C100C73865 /* JKImageColorArtTests.m */,
+				8C48EBF7187BF2C100C73865 /* Supporting Files */,
+			);
+			path = JKImageColorArtTests;
+			sourceTree = "<group>";
+		};
+		8C48EBF7187BF2C100C73865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EBF8187BF2C100C73865 /* JKImageColorSenseTests-Info.plist */,
+				8C48EBF9187BF2C100C73865 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C48EC06187BF30800C73865 /* JKImageColorSense */ = {
+			isa = PBXGroup;
+			children = (
+				8C48EC07187BF35D00C73865 /* JKImageColorSense.h */,
+				8C48EC08187BF35D00C73865 /* JKImageColorSense.m */,
+				8C358375187FCB25001CD996 /* JKImageColorSenseCore.h */,
+				8C358376187FCB25001CD996 /* JKImageColorSenseCore.m */,
+				8C48EC0A187BF36E00C73865 /* UIImage+JKImageColorSense.h */,
+				8C48EC0B187BF36E00C73865 /* UIImage+JKImageColorSense.m */,
+			);
+			name = JKImageColorSense;
+			path = ../../JKImageColorArt;
+			sourceTree = "<group>";
+		};
+		8CFF72A1187F1137005E309A /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				8CFF72B2187F11F6005E309A /* Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc */,
+				8CFF72B3187F11F6005E309A /* DELL.icc */,
+				8CFF72B4187F11F6005E309A /* LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc */,
+				8CFF72A2187F1137005E309A /* AdobeRGB1998.icc */,
+				8CFF72A3187F1137005E309A /* Generic CMYK Profile.icc */,
+				8CFF72A4187F1137005E309A /* Generic Gray Gamma 2.2 Profile.icc */,
+				8CFF72A5187F1137005E309A /* Generic Gray Profile.icc */,
+				8CFF72A6187F1137005E309A /* Generic Lab Profile.icc */,
+				8CFF72A7187F1137005E309A /* Generic RGB Profile.icc */,
+				8CFF72A8187F1137005E309A /* Generic XYZ Profile.icc */,
+				8CFF72A9187F1137005E309A /* sRGB Profile.icc */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C48EBCD187BF2C100C73865 /* JKImageColorSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C48EC00187BF2C100C73865 /* Build configuration list for PBXNativeTarget "JKImageColorSense" */;
+			buildPhases = (
+				8C48EBCA187BF2C100C73865 /* Sources */,
+				8C48EBCB187BF2C100C73865 /* Frameworks */,
+				8C48EBCC187BF2C100C73865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKImageColorSense;
+			productName = JKImageColorArt;
+			productReference = 8C48EBCE187BF2C100C73865 /* JKImageColorSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C48EBEE187BF2C100C73865 /* JKImageColorSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C48EC03187BF2C100C73865 /* Build configuration list for PBXNativeTarget "JKImageColorSenseTests" */;
+			buildPhases = (
+				8C48EBEB187BF2C100C73865 /* Sources */,
+				8C48EBEC187BF2C100C73865 /* Frameworks */,
+				8C48EBED187BF2C100C73865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C48EBF5187BF2C100C73865 /* PBXTargetDependency */,
+			);
+			name = JKImageColorSenseTests;
+			productName = JKImageColorArtTests;
+			productReference = 8C48EBEF187BF2C100C73865 /* JKImageColorSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C48EBC6187BF2C100C73865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Jackie;
+				TargetAttributes = {
+					8C48EBEE187BF2C100C73865 = {
+						TestTargetID = 8C48EBCD187BF2C100C73865;
+					};
+				};
+			};
+			buildConfigurationList = 8C48EBC9187BF2C100C73865 /* Build configuration list for PBXProject "JKImageColorSense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C48EBC5187BF2C100C73865;
+			productRefGroup = 8C48EBCF187BF2C100C73865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C48EBCD187BF2C100C73865 /* JKImageColorSense */,
+				8C48EBEE187BF2C100C73865 /* JKImageColorSenseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C48EBCC187BF2C100C73865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFF72B6187F1254005E309A /* DELL.icc in Resources */,
+				8CAA027A187DB712006C14A0 /* thefame.jpg in Resources */,
+				8CFF72B7187F1254005E309A /* LED Cinema Display-86BAA722-D137-0331-2E5A-779B978EB6A0.icc in Resources */,
+				8CAA0280187E9340006C14A0 /* silent roar.jpg in Resources */,
+				8CFF72AC187F1137005E309A /* Generic Gray Gamma 2.2 Profile.icc in Resources */,
+				8CAA0278187DA072006C14A0 /* intheaeroplane.png in Resources */,
+				8CFF72B9187FA51D005E309A /* sixrules.jpg in Resources */,
+				8C3866F61882464C00588E33 /* lookup.png in Resources */,
+				8CFF72AE187F1137005E309A /* Generic Lab Profile.icc in Resources */,
+				8CAA027E187E92B9006C14A0 /* fame.jpg in Resources */,
+				8C48EBEA187BF2C100C73865 /* Images.xcassets in Resources */,
+				8CFF72B5187F1254005E309A /* Color LCD-EA8876A9-951C-B458-A168-05BC015C42A8.icc in Resources */,
+				8C48EBDC187BF2C100C73865 /* InfoPlist.strings in Resources */,
+				8CFF72AB187F1137005E309A /* Generic CMYK Profile.icc in Resources */,
+				8CFF72AA187F1137005E309A /* AdobeRGB1998.icc in Resources */,
+				8CFF72AD187F1137005E309A /* Generic Gray Profile.icc in Resources */,
+				8CFF72B1187F1137005E309A /* sRGB Profile.icc in Resources */,
+				8CFF72B0187F1137005E309A /* Generic XYZ Profile.icc in Resources */,
+				8C48EBE5187BF2C100C73865 /* Main.storyboard in Resources */,
+				8CFF72AF187F1137005E309A /* Generic RGB Profile.icc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48EBED187BF2C100C73865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48EBFB187BF2C100C73865 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C48EBCA187BF2C100C73865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48EC0C187BF36E00C73865 /* UIImage+JKImageColorSense.m in Sources */,
+				8C48EBDE187BF2C100C73865 /* main.m in Sources */,
+				8C48EBE8187BF2C100C73865 /* JKViewController.m in Sources */,
+				8C48EC09187BF35D00C73865 /* JKImageColorSense.m in Sources */,
+				8C358377187FCB25001CD996 /* JKImageColorSenseCore.m in Sources */,
+				8C48EBE2187BF2C100C73865 /* JKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48EBEB187BF2C100C73865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48EBFD187BF2C100C73865 /* JKImageColorArtTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C48EBF5187BF2C100C73865 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C48EBCD187BF2C100C73865 /* JKImageColorSense */;
+			targetProxy = 8C48EBF4187BF2C100C73865 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C48EBDA187BF2C100C73865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C48EBDB187BF2C100C73865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C48EBE3187BF2C100C73865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C48EBE4187BF2C100C73865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C48EBF9187BF2C100C73865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C48EBFA187BF2C100C73865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C48EBFE187BF2C100C73865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C48EBFF187BF2C100C73865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C48EC01187BF2C100C73865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKImageColorArt/JKImageColorSense-Prefix.pch";
+				INFOPLIST_FILE = "JKImageColorArt/JKImageColorSense-Info.plist";
+				PRODUCT_NAME = JKImageColorSense;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C48EC02187BF2C100C73865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKImageColorArt/JKImageColorSense-Prefix.pch";
+				INFOPLIST_FILE = "JKImageColorArt/JKImageColorSense-Info.plist";
+				PRODUCT_NAME = JKImageColorSense;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C48EC04187BF2C100C73865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKImageColorArt.app/JKImageColorArt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKImageColorArt/JKImageColorArt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKImageColorArtTests/JKImageColorSenseTests-Info.plist";
+				PRODUCT_NAME = JKImageColorSenseTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8C48EC05187BF2C100C73865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JKImageColorArt.app/JKImageColorArt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKImageColorArt/JKImageColorArt-Prefix.pch";
+				INFOPLIST_FILE = "JKImageColorArtTests/JKImageColorSenseTests-Info.plist";
+				PRODUCT_NAME = JKImageColorSenseTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C48EBC9187BF2C100C73865 /* Build configuration list for PBXProject "JKImageColorSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48EBFE187BF2C100C73865 /* Debug */,
+				8C48EBFF187BF2C100C73865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C48EC00187BF2C100C73865 /* Build configuration list for PBXNativeTarget "JKImageColorSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48EC01187BF2C100C73865 /* Debug */,
+				8C48EC02187BF2C100C73865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C48EC03187BF2C100C73865 /* Build configuration list for PBXNativeTarget "JKImageColorSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48EC04187BF2C100C73865 /* Debug */,
+				8C48EC05187BF2C100C73865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C48EBC6187BF2C100C73865 /* Project object */;
+}

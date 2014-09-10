@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jackie" => "fsjack@gmil.com" }
 
   s.source       = { :git => "git@github.com:fsjack/JKImageColorSense.git"}
-  s.source_files = 'JKImageColorSense'
+  s.source_files = 'JKImageColorArt'
 
   s.requires_arc = true
 end

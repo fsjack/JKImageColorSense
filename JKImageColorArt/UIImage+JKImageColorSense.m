@@ -11,7 +11,7 @@
 #import <objc/runtime.h>
 @implementation UIImage (JKImageColorSense)
 
-- (JKImageColorSense *)imageColorSense{
+- (JKImageColorSense *)colorSense{
     static NSString *JKImageColorSenseAssociationKey = nil;
     JKImageColorSense *colorSense = objc_getAssociatedObject(self, &JKImageColorSenseAssociationKey);
     if(!colorSense){
@@ -22,14 +22,14 @@
 }
 
 - (UIColor *)backgroundColor{
-    return [self.imageColorSense backgroundColor];
+    return [self.colorSense backgroundColor];
 }
 
 - (UIColor *)primaryColor{
-    return [self.imageColorSense primaryColor];
+    return [self.colorSense primaryColor];
 }
 
 - (UIColor *)secondaryColor{
-    return [self.imageColorSense secondaryColor];
+    return [self.colorSense secondaryColor];
 }
 @end

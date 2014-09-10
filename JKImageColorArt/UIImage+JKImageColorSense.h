@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class JKImageColorSense;
 @interface UIImage (JKImageColorSense)
+
+@property (nonatomic, readonly) JKImageColorSense *colorSense;
+
 @property (nonatomic, readonly) UIColor *backgroundColor;
 @property (nonatomic, readonly) UIColor *primaryColor;
 @property (nonatomic, readonly) UIColor *secondaryColor;
